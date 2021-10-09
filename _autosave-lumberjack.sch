@@ -21,6 +21,7 @@ $EndDescr
 Connection ~ 1150 7600
 Connection ~ 1900 2200
 Connection ~ 2000 4000
+Connection ~ 2000 7250
 Connection ~ 2100 1700
 Connection ~ 2650 2000
 Connection ~ 2750 1900
@@ -41,24 +42,44 @@ Connection ~ 4900 3650
 Connection ~ 4900 4350
 Connection ~ 5050 7100
 Connection ~ 5050 7500
+Connection ~ 5300 1850
+Connection ~ 5300 2550
+Connection ~ 5300 3250
+Connection ~ 5300 3950
+Connection ~ 5300 4650
 Connection ~ 5300 5350
 Connection ~ 5400 1550
 Connection ~ 5400 2250
 Connection ~ 5400 2950
 Connection ~ 5400 3650
 Connection ~ 5400 4350
+Connection ~ 5800 1850
+Connection ~ 5800 2550
+Connection ~ 5800 3250
+Connection ~ 5800 3950
+Connection ~ 5800 4650
 Connection ~ 5800 5350
 Connection ~ 5900 1550
 Connection ~ 5900 2250
 Connection ~ 5900 2950
 Connection ~ 5900 3650
 Connection ~ 5900 4350
+Connection ~ 6300 1850
+Connection ~ 6300 2550
+Connection ~ 6300 3250
+Connection ~ 6300 3950
+Connection ~ 6300 4650
 Connection ~ 6300 5350
 Connection ~ 6400 1550
 Connection ~ 6400 2250
 Connection ~ 6400 2950
 Connection ~ 6400 3650
 Connection ~ 6400 4350
+Connection ~ 6800 1850
+Connection ~ 6800 2550
+Connection ~ 6800 3250
+Connection ~ 6800 3950
+Connection ~ 6800 4650
 Connection ~ 6800 5350
 Connection ~ 6900 1550
 Connection ~ 6900 2250
@@ -66,30 +87,55 @@ Connection ~ 6900 2950
 Connection ~ 6900 3650
 Connection ~ 6900 4350
 Connection ~ 6900 5050
+Connection ~ 7300 1850
+Connection ~ 7300 2550
+Connection ~ 7300 3250
+Connection ~ 7300 3950
+Connection ~ 7300 4650
 Connection ~ 7300 5350
 Connection ~ 7400 1550
 Connection ~ 7400 2250
 Connection ~ 7400 2950
 Connection ~ 7400 3650
 Connection ~ 7400 4350
+Connection ~ 7800 1850
+Connection ~ 7800 2550
+Connection ~ 7800 3250
+Connection ~ 7800 3950
+Connection ~ 7800 4650
 Connection ~ 7800 5350
 Connection ~ 7900 1550
 Connection ~ 7900 2250
 Connection ~ 7900 2950
 Connection ~ 7900 3650
 Connection ~ 7900 4350
+Connection ~ 8300 1850
+Connection ~ 8300 2550
+Connection ~ 8300 3250
+Connection ~ 8300 3950
+Connection ~ 8300 4650
 Connection ~ 8300 5350
 Connection ~ 8400 1550
 Connection ~ 8400 2250
 Connection ~ 8400 2950
 Connection ~ 8400 3650
 Connection ~ 8400 4350
+Connection ~ 8800 1850
+Connection ~ 8800 2550
+Connection ~ 8800 3250
+Connection ~ 8800 3950
+Connection ~ 8800 4650
 Connection ~ 8800 5350
 Connection ~ 8900 1550
 Connection ~ 8900 2250
 Connection ~ 8900 2950
 Connection ~ 8900 3650
 Connection ~ 8900 4350
+Connection ~ 9300 1850
+Connection ~ 9300 2550
+Connection ~ 9300 3250
+Connection ~ 9300 3950
+Connection ~ 9300 4650
 Connection ~ 9300 5350
 Connection ~ 9400 1550
 Connection ~ 9400 2250
@@ -118,6 +164,10 @@ Wire Wire Line
 	1750 2000 2650 2000
 Wire Wire Line
 	1750 2200 1900 2200
+Wire Wire Line
+	1750 7250 2000 7250
+Wire Wire Line
+	1750 7600 1750 7250
 Wire Wire Line
 	1900 2200 2050 2200
 Wire Wire Line
@@ -267,15 +317,15 @@ Wire Wire Line
 Wire Wire Line
 	4650 7400 4650 7500
 Wire Wire Line
-	4700 1850 9800 1850
+	4700 1850 5300 1850
 Wire Wire Line
-	4700 2550 9800 2550
+	4700 2550 5300 2550
 Wire Wire Line
-	4700 3250 9800 3250
+	4700 3250 5300 3250
 Wire Wire Line
-	4700 3950 9800 3950
+	4700 3950 5300 3950
 Wire Wire Line
-	4700 4650 9800 4650
+	4700 4650 5300 4650
 Wire Wire Line
 	4700 5350 5300 5350
 Wire Wire Line
@@ -309,13 +359,23 @@ Wire Wire Line
 Wire Wire Line
 	5300 1550 5300 1650
 Wire Wire Line
+	5300 1850 5800 1850
+Wire Wire Line
 	5300 2250 5300 2350
+Wire Wire Line
+	5300 2550 5800 2550
 Wire Wire Line
 	5300 2950 5300 3050
 Wire Wire Line
+	5300 3250 5800 3250
+Wire Wire Line
 	5300 3650 5300 3750
 Wire Wire Line
+	5300 3950 5800 3950
+Wire Wire Line
 	5300 4350 5300 4450
+Wire Wire Line
+	5300 4650 5800 4650
 Wire Wire Line
 	5300 5050 5300 5150
 Wire Wire Line
@@ -349,13 +409,23 @@ Wire Wire Line
 Wire Wire Line
 	5800 1550 5800 1650
 Wire Wire Line
+	5800 1850 6300 1850
+Wire Wire Line
 	5800 2250 5800 2350
+Wire Wire Line
+	5800 2550 6300 2550
 Wire Wire Line
 	5800 2950 5800 3050
 Wire Wire Line
+	5800 3250 6300 3250
+Wire Wire Line
 	5800 3650 5800 3750
 Wire Wire Line
+	5800 3950 6300 3950
+Wire Wire Line
 	5800 4350 5800 4450
+Wire Wire Line
+	5800 4650 6300 4650
 Wire Wire Line
 	5800 5050 5800 5150
 Wire Wire Line
@@ -375,13 +445,23 @@ Wire Wire Line
 Wire Wire Line
 	6300 1550 6300 1650
 Wire Wire Line
+	6300 1850 6800 1850
+Wire Wire Line
 	6300 2250 6300 2350
+Wire Wire Line
+	6300 2550 6800 2550
 Wire Wire Line
 	6300 2950 6300 3050
 Wire Wire Line
+	6300 3250 6800 3250
+Wire Wire Line
 	6300 3650 6300 3750
 Wire Wire Line
+	6300 3950 6800 3950
+Wire Wire Line
 	6300 4350 6300 4450
+Wire Wire Line
+	6300 4650 6800 4650
 Wire Wire Line
 	6300 5050 6300 5150
 Wire Wire Line
@@ -401,13 +481,23 @@ Wire Wire Line
 Wire Wire Line
 	6800 1550 6800 1650
 Wire Wire Line
+	6800 1850 7300 1850
+Wire Wire Line
 	6800 2250 6800 2350
+Wire Wire Line
+	6800 2550 7300 2550
 Wire Wire Line
 	6800 2950 6800 3050
 Wire Wire Line
+	6800 3250 7300 3250
+Wire Wire Line
 	6800 3650 6800 3750
 Wire Wire Line
+	6800 3950 7300 3950
+Wire Wire Line
 	6800 4350 6800 4450
+Wire Wire Line
+	6800 4650 7300 4650
 Wire Wire Line
 	6800 5050 6800 5150
 Wire Wire Line
@@ -429,13 +519,23 @@ Wire Wire Line
 Wire Wire Line
 	7300 1550 7300 1650
 Wire Wire Line
+	7300 1850 7800 1850
+Wire Wire Line
 	7300 2250 7300 2350
+Wire Wire Line
+	7300 2550 7800 2550
 Wire Wire Line
 	7300 2950 7300 3050
 Wire Wire Line
+	7300 3250 7800 3250
+Wire Wire Line
 	7300 3650 7300 3750
 Wire Wire Line
+	7300 3950 7800 3950
+Wire Wire Line
 	7300 4350 7300 4450
+Wire Wire Line
+	7300 4650 7800 4650
 Wire Wire Line
 	7300 5050 7300 5150
 Wire Wire Line
@@ -461,13 +561,23 @@ Wire Wire Line
 Wire Wire Line
 	7800 1550 7800 1650
 Wire Wire Line
+	7800 1850 8300 1850
+Wire Wire Line
 	7800 2250 7800 2350
+Wire Wire Line
+	7800 2550 8300 2550
 Wire Wire Line
 	7800 2950 7800 3050
 Wire Wire Line
+	7800 3250 8300 3250
+Wire Wire Line
 	7800 3650 7800 3750
 Wire Wire Line
+	7800 3950 8300 3950
+Wire Wire Line
 	7800 4350 7800 4450
+Wire Wire Line
+	7800 4650 8300 4650
 Wire Wire Line
 	7800 5050 7800 5150
 Wire Wire Line
@@ -487,13 +597,23 @@ Wire Wire Line
 Wire Wire Line
 	8300 1550 8300 1650
 Wire Wire Line
+	8300 1850 8800 1850
+Wire Wire Line
 	8300 2250 8300 2350
+Wire Wire Line
+	8300 2550 8800 2550
 Wire Wire Line
 	8300 2950 8300 3050
 Wire Wire Line
+	8300 3250 8800 3250
+Wire Wire Line
 	8300 3650 8300 3750
 Wire Wire Line
+	8300 3950 8800 3950
+Wire Wire Line
 	8300 4350 8300 4450
+Wire Wire Line
+	8300 4650 8800 4650
 Wire Wire Line
 	8300 5050 8300 5150
 Wire Wire Line
@@ -513,13 +633,23 @@ Wire Wire Line
 Wire Wire Line
 	8800 1550 8800 1650
 Wire Wire Line
+	8800 1850 9300 1850
+Wire Wire Line
 	8800 2250 8800 2350
+Wire Wire Line
+	8800 2550 9300 2550
 Wire Wire Line
 	8800 2950 8800 3050
 Wire Wire Line
+	8800 3250 9300 3250
+Wire Wire Line
 	8800 3650 8800 3750
 Wire Wire Line
+	8800 3950 9300 3950
+Wire Wire Line
 	8800 4350 8800 4450
+Wire Wire Line
+	8800 4650 9300 4650
 Wire Wire Line
 	8800 5050 8800 5150
 Wire Wire Line
@@ -539,13 +669,23 @@ Wire Wire Line
 Wire Wire Line
 	9300 1550 9300 1650
 Wire Wire Line
+	9300 1850 9800 1850
+Wire Wire Line
 	9300 2250 9300 2350
+Wire Wire Line
+	9300 2550 9800 2550
 Wire Wire Line
 	9300 2950 9300 3050
 Wire Wire Line
+	9300 3250 9800 3250
+Wire Wire Line
 	9300 3650 9300 3750
 Wire Wire Line
+	9300 3950 9800 3950
+Wire Wire Line
 	9300 4350 9300 4450
+Wire Wire Line
+	9300 4650 9800 4650
 Wire Wire Line
 	9300 5050 9300 5150
 Wire Wire Line
@@ -670,17 +810,6 @@ Text Label 8900 1150 1    50   ~ 0
 COL8
 Text Label 9400 1150 1    50   ~ 0
 COL9
-$Comp
-L keyboard_parts:GND #PWR?
-U 1 1 00000000
-P 1750 7600
-F 0 "#PWR?" H 1750 7650 20  0001 C CNN
-F 1 "GND" H 1750 7650 30  0000 C CNN
-F 2 "" H 1750 7600 60  0000 C CNN
-F 3 "" H 1750 7600 60  0000 C CNN
-	1    1750 7600
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR010
 U 1 1 5C52D444
@@ -995,7 +1124,7 @@ U 1 1 00000000
 P 3100 2250
 F 0 "D61" V 3150 2150 50  0000 R CNN
 F 1 "3.6V" V 3050 2150 50  0000 R CNN
-F 2 "" V 3100 2250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 3100 2250 50  0001 C CNN
 F 3 "~" V 3100 2250 50  0001 C CNN
 	1    3100 2250
 	0    -1   -1   0   
@@ -1006,7 +1135,7 @@ U 1 1 00000000
 P 3400 2250
 F 0 "D62" V 3450 2150 50  0000 R CNN
 F 1 "3.6V" V 3350 2150 50  0000 R CNN
-F 2 "" V 3400 2250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 3400 2250 50  0001 C CNN
 F 3 "~" V 3400 2250 50  0001 C CNN
 	1    3400 2250
 	0    -1   -1   0   
@@ -1721,7 +1850,7 @@ U 1 1 608A2ADF
 P 6600 6950
 F 0 "H5" H 6700 6996 50  0000 L CNN
 F 1 "M2" H 6700 6905 50  0000 L CNN
-F 2 "lumberjack:MountingSlot_M2" H 6600 6950 50  0001 C CNN
+F 2 "Schematic Library:poker-screw-wide" H 6600 6950 50  0001 C CNN
 F 3 "~" H 6600 6950 50  0001 C CNN
 	1    6600 6950
 	1    0    0    -1  
@@ -1732,7 +1861,7 @@ U 1 1 608A2ED7
 P 6600 7150
 F 0 "H6" H 6700 7196 50  0000 L CNN
 F 1 "M2" H 6700 7105 50  0000 L CNN
-F 2 "lumberjack:MountingSlot_M2" H 6600 7150 50  0001 C CNN
+F 2 "Schematic Library:poker-screw-wide" H 6600 7150 50  0001 C CNN
 F 3 "~" H 6600 7150 50  0001 C CNN
 	1    6600 7150
 	1    0    0    -1  
@@ -1743,9 +1872,31 @@ U 1 1 61287EB7
 P 6600 7350
 F 0 "H7" H 6700 7396 50  0000 L CNN
 F 1 "M2" H 6700 7305 50  0000 L CNN
-F 2 "lumberjack:MountingSlot_M2" H 6600 7350 50  0001 C CNN
+F 2 "Schematic Library:poker-screw-normal" H 6600 7350 50  0001 C CNN
 F 3 "~" H 6600 7350 50  0001 C CNN
 	1    6600 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 00000000
+P 6600 7550
+F 0 "H8" H 6700 7596 50  0000 L CNN
+F 1 "M2" H 6700 7505 50  0000 L CNN
+F 2 "Schematic Library:poker-screw-normal" H 6600 7550 50  0001 C CNN
+F 3 "~" H 6600 7550 50  0001 C CNN
+	1    6600 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 00000000
+P 6600 7750
+F 0 "H9" H 6700 7796 50  0000 L CNN
+F 1 "M2" H 6700 7705 50  0000 L CNN
+F 2 "Schematic Library:poker-screw-normal" H 6600 7750 50  0001 C CNN
+F 3 "~" H 6600 7750 50  0001 C CNN
+	1    6600 7750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1843,7 +1994,7 @@ P 1550 7600
 F 0 "SW1" H 1550 7885 50  0000 C CNN
 F 1 "RESET" H 1550 7794 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1550 7800 50  0001 C CNN
-F 3 "" H 1550 7800 50  0001 C CNN
+F 3 "~" H 1550 7800 50  0001 C CNN
 	1    1550 7600
 	1    0    0    -1  
 $EndComp
@@ -1854,7 +2005,7 @@ P 3400 7400
 F 0 "SW2" H 3400 7685 50  0000 C CNN
 F 1 "BOOT" H 3400 7594 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3400 7600 50  0001 C CNN
-F 3 "" H 3400 7600 50  0001 C CNN
+F 3 "~" H 3400 7600 50  0001 C CNN
 	1    3400 7400
 	1    0    0    -1  
 $EndComp
@@ -1864,8 +2015,8 @@ U 1 1 5C075012
 P 5100 1550
 F 0 "MX1" H 5100 1835 50  0000 C CNN
 F 1 "SW_Push" H 5100 1744 50  0000 C CNN
-F 2 "lumberjack:MX" H 5100 1750 50  0001 C CNN
-F 3 "" H 5100 1750 50  0001 C CNN
+F 2 "Alps:ALPS-SI-1U" H 5100 1750 50  0001 C CNN
+F 3 "~" H 5100 1750 50  0001 C CNN
 	1    5100 1550
 	-1   0    0    -1  
 $EndComp
@@ -1876,7 +2027,7 @@ P 5100 2250
 F 0 "MX2" H 5100 2535 50  0000 C CNN
 F 1 "SW_Push" H 5100 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 5100 2450 50  0001 C CNN
-F 3 "" H 5100 2450 50  0001 C CNN
+F 3 "~" H 5100 2450 50  0001 C CNN
 	1    5100 2250
 	-1   0    0    -1  
 $EndComp
@@ -1887,7 +2038,7 @@ P 5100 2950
 F 0 "MX3" H 5100 3235 50  0000 C CNN
 F 1 "SW_Push" H 5100 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 5100 3150 50  0001 C CNN
-F 3 "" H 5100 3150 50  0001 C CNN
+F 3 "~" H 5100 3150 50  0001 C CNN
 	1    5100 2950
 	-1   0    0    -1  
 $EndComp
@@ -1898,7 +2049,7 @@ P 5100 3650
 F 0 "MX4" H 5100 3935 50  0000 C CNN
 F 1 "SW_Push" H 5100 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 5100 3850 50  0001 C CNN
-F 3 "" H 5100 3850 50  0001 C CNN
+F 3 "~" H 5100 3850 50  0001 C CNN
 	1    5100 3650
 	-1   0    0    -1  
 $EndComp
@@ -1909,7 +2060,7 @@ P 5100 4350
 F 0 "MX5" H 5100 4635 50  0000 C CNN
 F 1 "SW_Push" H 5100 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 5100 4550 50  0001 C CNN
-F 3 "" H 5100 4550 50  0001 C CNN
+F 3 "~" H 5100 4550 50  0001 C CNN
 	1    5100 4350
 	-1   0    0    -1  
 $EndComp
@@ -1920,7 +2071,7 @@ P 5100 5050
 F 0 "MX6" H 5100 5335 50  0000 C CNN
 F 1 "SW_Push" H 5100 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 5100 5250 50  0001 C CNN
-F 3 "" H 5100 5250 50  0001 C CNN
+F 3 "~" H 5100 5250 50  0001 C CNN
 	1    5100 5050
 	-1   0    0    -1  
 $EndComp
@@ -1931,7 +2082,7 @@ P 5600 1550
 F 0 "MX7" H 5600 1835 50  0000 C CNN
 F 1 "SW_Push" H 5600 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 5600 1750 50  0001 C CNN
-F 3 "" H 5600 1750 50  0001 C CNN
+F 3 "~" H 5600 1750 50  0001 C CNN
 	1    5600 1550
 	-1   0    0    -1  
 $EndComp
@@ -1941,8 +2092,8 @@ U 1 1 5C14911F
 P 5600 2250
 F 0 "MX8" H 5600 2535 50  0000 C CNN
 F 1 "SW_Push" H 5600 2444 50  0000 C CNN
-F 2 "lumberjack:MX" H 5600 2450 50  0001 C CNN
-F 3 "" H 5600 2450 50  0001 C CNN
+F 2 "Alps:ALPS-SI-deleted-left-pin-1U" H 5600 2450 50  0001 C CNN
+F 3 "~" H 5600 2450 50  0001 C CNN
 	1    5600 2250
 	-1   0    0    -1  
 $EndComp
@@ -1953,7 +2104,7 @@ P 5600 2950
 F 0 "MX9" H 5600 3235 50  0000 C CNN
 F 1 "SW_Push" H 5600 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 5600 3150 50  0001 C CNN
-F 3 "" H 5600 3150 50  0001 C CNN
+F 3 "~" H 5600 3150 50  0001 C CNN
 	1    5600 2950
 	-1   0    0    -1  
 $EndComp
@@ -1964,7 +2115,7 @@ P 5600 3650
 F 0 "MX10" H 5600 3935 50  0000 C CNN
 F 1 "SW_Push" H 5600 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 5600 3850 50  0001 C CNN
-F 3 "" H 5600 3850 50  0001 C CNN
+F 3 "~" H 5600 3850 50  0001 C CNN
 	1    5600 3650
 	-1   0    0    -1  
 $EndComp
@@ -1975,7 +2126,7 @@ P 5600 4350
 F 0 "MX11" H 5600 4635 50  0000 C CNN
 F 1 "SW_Push" H 5600 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 5600 4550 50  0001 C CNN
-F 3 "" H 5600 4550 50  0001 C CNN
+F 3 "~" H 5600 4550 50  0001 C CNN
 	1    5600 4350
 	-1   0    0    -1  
 $EndComp
@@ -1986,7 +2137,7 @@ P 5600 5050
 F 0 "MX12" H 5600 5335 50  0000 C CNN
 F 1 "SW_Push" H 5600 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 5600 5250 50  0001 C CNN
-F 3 "" H 5600 5250 50  0001 C CNN
+F 3 "~" H 5600 5250 50  0001 C CNN
 	1    5600 5050
 	-1   0    0    -1  
 $EndComp
@@ -1997,7 +2148,7 @@ P 6100 1550
 F 0 "MX13" H 6100 1835 50  0000 C CNN
 F 1 "SW_Push" H 6100 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 6100 1750 50  0001 C CNN
-F 3 "" H 6100 1750 50  0001 C CNN
+F 3 "~" H 6100 1750 50  0001 C CNN
 	1    6100 1550
 	-1   0    0    -1  
 $EndComp
@@ -2008,7 +2159,7 @@ P 6100 2250
 F 0 "MX14" H 6100 2535 50  0000 C CNN
 F 1 "SW_Push" H 6100 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 6100 2450 50  0001 C CNN
-F 3 "" H 6100 2450 50  0001 C CNN
+F 3 "~" H 6100 2450 50  0001 C CNN
 	1    6100 2250
 	-1   0    0    -1  
 $EndComp
@@ -2019,7 +2170,7 @@ P 6100 2950
 F 0 "MX15" H 6100 3235 50  0000 C CNN
 F 1 "SW_Push" H 6100 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 6100 3150 50  0001 C CNN
-F 3 "" H 6100 3150 50  0001 C CNN
+F 3 "~" H 6100 3150 50  0001 C CNN
 	1    6100 2950
 	-1   0    0    -1  
 $EndComp
@@ -2030,7 +2181,7 @@ P 6100 3650
 F 0 "MX16" H 6100 3935 50  0000 C CNN
 F 1 "SW_Push" H 6100 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 6100 3850 50  0001 C CNN
-F 3 "" H 6100 3850 50  0001 C CNN
+F 3 "~" H 6100 3850 50  0001 C CNN
 	1    6100 3650
 	-1   0    0    -1  
 $EndComp
@@ -2041,7 +2192,7 @@ P 6100 4350
 F 0 "MX17" H 6100 4635 50  0000 C CNN
 F 1 "SW_Push" H 6100 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 6100 4550 50  0001 C CNN
-F 3 "" H 6100 4550 50  0001 C CNN
+F 3 "~" H 6100 4550 50  0001 C CNN
 	1    6100 4350
 	-1   0    0    -1  
 $EndComp
@@ -2052,7 +2203,7 @@ P 6100 5050
 F 0 "MX18" H 6100 5335 50  0000 C CNN
 F 1 "SW_Push" H 6100 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 6100 5250 50  0001 C CNN
-F 3 "" H 6100 5250 50  0001 C CNN
+F 3 "~" H 6100 5250 50  0001 C CNN
 	1    6100 5050
 	-1   0    0    -1  
 $EndComp
@@ -2063,7 +2214,7 @@ P 6600 1550
 F 0 "MX19" H 6600 1835 50  0000 C CNN
 F 1 "SW_Push" H 6600 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 6600 1750 50  0001 C CNN
-F 3 "" H 6600 1750 50  0001 C CNN
+F 3 "~" H 6600 1750 50  0001 C CNN
 	1    6600 1550
 	-1   0    0    -1  
 $EndComp
@@ -2074,7 +2225,7 @@ P 6600 2250
 F 0 "MX20" H 6600 2535 50  0000 C CNN
 F 1 "SW_Push" H 6600 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 6600 2450 50  0001 C CNN
-F 3 "" H 6600 2450 50  0001 C CNN
+F 3 "~" H 6600 2450 50  0001 C CNN
 	1    6600 2250
 	-1   0    0    -1  
 $EndComp
@@ -2085,7 +2236,7 @@ P 6600 2950
 F 0 "MX21" H 6600 3235 50  0000 C CNN
 F 1 "SW_Push" H 6600 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 6600 3150 50  0001 C CNN
-F 3 "" H 6600 3150 50  0001 C CNN
+F 3 "~" H 6600 3150 50  0001 C CNN
 	1    6600 2950
 	-1   0    0    -1  
 $EndComp
@@ -2096,7 +2247,7 @@ P 6600 3650
 F 0 "MX22" H 6600 3935 50  0000 C CNN
 F 1 "SW_Push" H 6600 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 6600 3850 50  0001 C CNN
-F 3 "" H 6600 3850 50  0001 C CNN
+F 3 "~" H 6600 3850 50  0001 C CNN
 	1    6600 3650
 	-1   0    0    -1  
 $EndComp
@@ -2107,7 +2258,7 @@ P 6600 4350
 F 0 "MX23" H 6600 4635 50  0000 C CNN
 F 1 "SW_Push" H 6600 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 6600 4550 50  0001 C CNN
-F 3 "" H 6600 4550 50  0001 C CNN
+F 3 "~" H 6600 4550 50  0001 C CNN
 	1    6600 4350
 	-1   0    0    -1  
 $EndComp
@@ -2118,7 +2269,7 @@ P 6600 5050
 F 0 "MX24" H 6600 5335 50  0000 C CNN
 F 1 "SW_Push" H 6600 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 6600 5250 50  0001 C CNN
-F 3 "" H 6600 5250 50  0001 C CNN
+F 3 "~" H 6600 5250 50  0001 C CNN
 	1    6600 5050
 	-1   0    0    -1  
 $EndComp
@@ -2129,7 +2280,7 @@ P 7100 1550
 F 0 "MX25" H 7100 1835 50  0000 C CNN
 F 1 "SW_Push" H 7100 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 7100 1750 50  0001 C CNN
-F 3 "" H 7100 1750 50  0001 C CNN
+F 3 "~" H 7100 1750 50  0001 C CNN
 	1    7100 1550
 	-1   0    0    -1  
 $EndComp
@@ -2140,7 +2291,7 @@ P 7100 2250
 F 0 "MX26" H 7100 2535 50  0000 C CNN
 F 1 "SW_Push" H 7100 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 7100 2450 50  0001 C CNN
-F 3 "" H 7100 2450 50  0001 C CNN
+F 3 "~" H 7100 2450 50  0001 C CNN
 	1    7100 2250
 	-1   0    0    -1  
 $EndComp
@@ -2151,7 +2302,7 @@ P 7100 2950
 F 0 "MX27" H 7100 3235 50  0000 C CNN
 F 1 "SW_Push" H 7100 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 7100 3150 50  0001 C CNN
-F 3 "" H 7100 3150 50  0001 C CNN
+F 3 "~" H 7100 3150 50  0001 C CNN
 	1    7100 2950
 	-1   0    0    -1  
 $EndComp
@@ -2162,7 +2313,7 @@ P 7100 3650
 F 0 "MX28" H 7100 3935 50  0000 C CNN
 F 1 "SW_Push" H 7100 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 7100 3850 50  0001 C CNN
-F 3 "" H 7100 3850 50  0001 C CNN
+F 3 "~" H 7100 3850 50  0001 C CNN
 	1    7100 3650
 	-1   0    0    -1  
 $EndComp
@@ -2173,7 +2324,7 @@ P 7100 4350
 F 0 "MX29" H 7100 4635 50  0000 C CNN
 F 1 "SW_Push" H 7100 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 7100 4550 50  0001 C CNN
-F 3 "" H 7100 4550 50  0001 C CNN
+F 3 "~" H 7100 4550 50  0001 C CNN
 	1    7100 4350
 	-1   0    0    -1  
 $EndComp
@@ -2184,7 +2335,7 @@ P 7100 5050
 F 0 "MX30" H 7100 5335 50  0000 C CNN
 F 1 "SW_Push" H 7100 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 7100 5250 50  0001 C CNN
-F 3 "" H 7100 5250 50  0001 C CNN
+F 3 "~" H 7100 5250 50  0001 C CNN
 	1    7100 5050
 	-1   0    0    -1  
 $EndComp
@@ -2195,7 +2346,7 @@ P 7100 5750
 F 0 "2u_MX30" H 7100 6035 50  0000 C CNN
 F 1 "SW_Push" H 7100 5944 50  0000 C CNN
 F 2 "lumberjack:MX_PCB_200B" H 7100 5950 50  0001 C CNN
-F 3 "" H 7100 5950 50  0001 C CNN
+F 3 "~" H 7100 5950 50  0001 C CNN
 	1    7100 5750
 	-1   0    0    -1  
 $EndComp
@@ -2206,7 +2357,7 @@ P 7600 1550
 F 0 "MX31" H 7600 1835 50  0000 C CNN
 F 1 "SW_Push" H 7600 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 7600 1750 50  0001 C CNN
-F 3 "" H 7600 1750 50  0001 C CNN
+F 3 "~" H 7600 1750 50  0001 C CNN
 	1    7600 1550
 	-1   0    0    -1  
 $EndComp
@@ -2217,7 +2368,7 @@ P 7600 2250
 F 0 "MX32" H 7600 2535 50  0000 C CNN
 F 1 "SW_Push" H 7600 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 7600 2450 50  0001 C CNN
-F 3 "" H 7600 2450 50  0001 C CNN
+F 3 "~" H 7600 2450 50  0001 C CNN
 	1    7600 2250
 	-1   0    0    -1  
 $EndComp
@@ -2228,7 +2379,7 @@ P 7600 2950
 F 0 "MX33" H 7600 3235 50  0000 C CNN
 F 1 "SW_Push" H 7600 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 7600 3150 50  0001 C CNN
-F 3 "" H 7600 3150 50  0001 C CNN
+F 3 "~" H 7600 3150 50  0001 C CNN
 	1    7600 2950
 	-1   0    0    -1  
 $EndComp
@@ -2239,7 +2390,7 @@ P 7600 3650
 F 0 "MX34" H 7600 3935 50  0000 C CNN
 F 1 "SW_Push" H 7600 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 7600 3850 50  0001 C CNN
-F 3 "" H 7600 3850 50  0001 C CNN
+F 3 "~" H 7600 3850 50  0001 C CNN
 	1    7600 3650
 	-1   0    0    -1  
 $EndComp
@@ -2250,7 +2401,7 @@ P 7600 4350
 F 0 "MX35" H 7600 4635 50  0000 C CNN
 F 1 "SW_Push" H 7600 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 7600 4550 50  0001 C CNN
-F 3 "" H 7600 4550 50  0001 C CNN
+F 3 "~" H 7600 4550 50  0001 C CNN
 	1    7600 4350
 	-1   0    0    -1  
 $EndComp
@@ -2261,7 +2412,7 @@ P 7600 5050
 F 0 "MX36" H 7600 5335 50  0000 C CNN
 F 1 "SW_Push" H 7600 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 7600 5250 50  0001 C CNN
-F 3 "" H 7600 5250 50  0001 C CNN
+F 3 "~" H 7600 5250 50  0001 C CNN
 	1    7600 5050
 	-1   0    0    -1  
 $EndComp
@@ -2272,7 +2423,7 @@ P 8100 1550
 F 0 "MX37" H 8100 1835 50  0000 C CNN
 F 1 "SW_Push" H 8100 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 8100 1750 50  0001 C CNN
-F 3 "" H 8100 1750 50  0001 C CNN
+F 3 "~" H 8100 1750 50  0001 C CNN
 	1    8100 1550
 	-1   0    0    -1  
 $EndComp
@@ -2282,8 +2433,8 @@ U 1 1 5C149FE4
 P 8100 2250
 F 0 "MX38" H 8100 2535 50  0000 C CNN
 F 1 "SW_Push" H 8100 2444 50  0000 C CNN
-F 2 "lumberjack:MX" H 8100 2450 50  0001 C CNN
-F 3 "" H 8100 2450 50  0001 C CNN
+F 2 "Alps:ALPS-SI-deleted-right-pin-1U" H 8100 2450 50  0001 C CNN
+F 3 "~" H 8100 2450 50  0001 C CNN
 	1    8100 2250
 	-1   0    0    -1  
 $EndComp
@@ -2294,7 +2445,7 @@ P 8100 2950
 F 0 "MX39" H 8100 3235 50  0000 C CNN
 F 1 "SW_Push" H 8100 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 8100 3150 50  0001 C CNN
-F 3 "" H 8100 3150 50  0001 C CNN
+F 3 "~" H 8100 3150 50  0001 C CNN
 	1    8100 2950
 	-1   0    0    -1  
 $EndComp
@@ -2305,7 +2456,7 @@ P 8100 3650
 F 0 "MX40" H 8100 3935 50  0000 C CNN
 F 1 "SW_Push" H 8100 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 8100 3850 50  0001 C CNN
-F 3 "" H 8100 3850 50  0001 C CNN
+F 3 "~" H 8100 3850 50  0001 C CNN
 	1    8100 3650
 	-1   0    0    -1  
 $EndComp
@@ -2316,7 +2467,7 @@ P 8100 4350
 F 0 "MX41" H 8100 4635 50  0000 C CNN
 F 1 "SW_Push" H 8100 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 8100 4550 50  0001 C CNN
-F 3 "" H 8100 4550 50  0001 C CNN
+F 3 "~" H 8100 4550 50  0001 C CNN
 	1    8100 4350
 	-1   0    0    -1  
 $EndComp
@@ -2327,7 +2478,7 @@ P 8100 5050
 F 0 "MX42" H 8100 5335 50  0000 C CNN
 F 1 "SW_Push" H 8100 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 8100 5250 50  0001 C CNN
-F 3 "" H 8100 5250 50  0001 C CNN
+F 3 "~" H 8100 5250 50  0001 C CNN
 	1    8100 5050
 	-1   0    0    -1  
 $EndComp
@@ -2338,7 +2489,7 @@ P 8600 1550
 F 0 "MX43" H 8600 1835 50  0000 C CNN
 F 1 "SW_Push" H 8600 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 8600 1750 50  0001 C CNN
-F 3 "" H 8600 1750 50  0001 C CNN
+F 3 "~" H 8600 1750 50  0001 C CNN
 	1    8600 1550
 	-1   0    0    -1  
 $EndComp
@@ -2349,7 +2500,7 @@ P 8600 2250
 F 0 "MX44" H 8600 2535 50  0000 C CNN
 F 1 "SW_Push" H 8600 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 8600 2450 50  0001 C CNN
-F 3 "" H 8600 2450 50  0001 C CNN
+F 3 "~" H 8600 2450 50  0001 C CNN
 	1    8600 2250
 	-1   0    0    -1  
 $EndComp
@@ -2360,7 +2511,7 @@ P 8600 2950
 F 0 "MX45" H 8600 3235 50  0000 C CNN
 F 1 "SW_Push" H 8600 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 8600 3150 50  0001 C CNN
-F 3 "" H 8600 3150 50  0001 C CNN
+F 3 "~" H 8600 3150 50  0001 C CNN
 	1    8600 2950
 	-1   0    0    -1  
 $EndComp
@@ -2371,7 +2522,7 @@ P 8600 3650
 F 0 "MX46" H 8600 3935 50  0000 C CNN
 F 1 "SW_Push" H 8600 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 8600 3850 50  0001 C CNN
-F 3 "" H 8600 3850 50  0001 C CNN
+F 3 "~" H 8600 3850 50  0001 C CNN
 	1    8600 3650
 	-1   0    0    -1  
 $EndComp
@@ -2382,7 +2533,7 @@ P 8600 4350
 F 0 "MX47" H 8600 4635 50  0000 C CNN
 F 1 "SW_Push" H 8600 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 8600 4550 50  0001 C CNN
-F 3 "" H 8600 4550 50  0001 C CNN
+F 3 "~" H 8600 4550 50  0001 C CNN
 	1    8600 4350
 	-1   0    0    -1  
 $EndComp
@@ -2393,7 +2544,7 @@ P 8600 5050
 F 0 "MX48" H 8600 5335 50  0000 C CNN
 F 1 "SW_Push" H 8600 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 8600 5250 50  0001 C CNN
-F 3 "" H 8600 5250 50  0001 C CNN
+F 3 "~" H 8600 5250 50  0001 C CNN
 	1    8600 5050
 	-1   0    0    -1  
 $EndComp
@@ -2404,7 +2555,7 @@ P 9100 1550
 F 0 "MX49" H 9100 1835 50  0000 C CNN
 F 1 "SW_Push" H 9100 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 9100 1750 50  0001 C CNN
-F 3 "" H 9100 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
 	1    9100 1550
 	-1   0    0    -1  
 $EndComp
@@ -2415,7 +2566,7 @@ P 9100 2250
 F 0 "MX50" H 9100 2535 50  0000 C CNN
 F 1 "SW_Push" H 9100 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 9100 2450 50  0001 C CNN
-F 3 "" H 9100 2450 50  0001 C CNN
+F 3 "~" H 9100 2450 50  0001 C CNN
 	1    9100 2250
 	-1   0    0    -1  
 $EndComp
@@ -2426,7 +2577,7 @@ P 9100 2950
 F 0 "MX51" H 9100 3235 50  0000 C CNN
 F 1 "SW_Push" H 9100 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 9100 3150 50  0001 C CNN
-F 3 "" H 9100 3150 50  0001 C CNN
+F 3 "~" H 9100 3150 50  0001 C CNN
 	1    9100 2950
 	-1   0    0    -1  
 $EndComp
@@ -2437,7 +2588,7 @@ P 9100 3650
 F 0 "MX52" H 9100 3935 50  0000 C CNN
 F 1 "SW_Push" H 9100 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 9100 3850 50  0001 C CNN
-F 3 "" H 9100 3850 50  0001 C CNN
+F 3 "~" H 9100 3850 50  0001 C CNN
 	1    9100 3650
 	-1   0    0    -1  
 $EndComp
@@ -2448,7 +2599,7 @@ P 9100 4350
 F 0 "MX53" H 9100 4635 50  0000 C CNN
 F 1 "SW_Push" H 9100 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 9100 4550 50  0001 C CNN
-F 3 "" H 9100 4550 50  0001 C CNN
+F 3 "~" H 9100 4550 50  0001 C CNN
 	1    9100 4350
 	-1   0    0    -1  
 $EndComp
@@ -2459,7 +2610,7 @@ P 9100 5050
 F 0 "MX54" H 9100 5335 50  0000 C CNN
 F 1 "SW_Push" H 9100 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 9100 5250 50  0001 C CNN
-F 3 "" H 9100 5250 50  0001 C CNN
+F 3 "~" H 9100 5250 50  0001 C CNN
 	1    9100 5050
 	-1   0    0    -1  
 $EndComp
@@ -2470,7 +2621,7 @@ P 9600 1550
 F 0 "MX55" H 9600 1835 50  0000 C CNN
 F 1 "SW_Push" H 9600 1744 50  0000 C CNN
 F 2 "lumberjack:MX" H 9600 1750 50  0001 C CNN
-F 3 "" H 9600 1750 50  0001 C CNN
+F 3 "~" H 9600 1750 50  0001 C CNN
 	1    9600 1550
 	-1   0    0    -1  
 $EndComp
@@ -2481,7 +2632,7 @@ P 9600 2250
 F 0 "MX56" H 9600 2535 50  0000 C CNN
 F 1 "SW_Push" H 9600 2444 50  0000 C CNN
 F 2 "lumberjack:MX" H 9600 2450 50  0001 C CNN
-F 3 "" H 9600 2450 50  0001 C CNN
+F 3 "~" H 9600 2450 50  0001 C CNN
 	1    9600 2250
 	-1   0    0    -1  
 $EndComp
@@ -2492,7 +2643,7 @@ P 9600 2950
 F 0 "MX57" H 9600 3235 50  0000 C CNN
 F 1 "SW_Push" H 9600 3144 50  0000 C CNN
 F 2 "lumberjack:MX" H 9600 3150 50  0001 C CNN
-F 3 "" H 9600 3150 50  0001 C CNN
+F 3 "~" H 9600 3150 50  0001 C CNN
 	1    9600 2950
 	-1   0    0    -1  
 $EndComp
@@ -2503,7 +2654,7 @@ P 9600 3650
 F 0 "MX58" H 9600 3935 50  0000 C CNN
 F 1 "SW_Push" H 9600 3844 50  0000 C CNN
 F 2 "lumberjack:MX" H 9600 3850 50  0001 C CNN
-F 3 "" H 9600 3850 50  0001 C CNN
+F 3 "~" H 9600 3850 50  0001 C CNN
 	1    9600 3650
 	-1   0    0    -1  
 $EndComp
@@ -2514,7 +2665,7 @@ P 9600 4350
 F 0 "MX59" H 9600 4635 50  0000 C CNN
 F 1 "SW_Push" H 9600 4544 50  0000 C CNN
 F 2 "lumberjack:MX" H 9600 4550 50  0001 C CNN
-F 3 "" H 9600 4550 50  0001 C CNN
+F 3 "~" H 9600 4550 50  0001 C CNN
 	1    9600 4350
 	-1   0    0    -1  
 $EndComp
@@ -2525,7 +2676,7 @@ P 9600 5050
 F 0 "MX60" H 9600 5335 50  0000 C CNN
 F 1 "SW_Push" H 9600 5244 50  0000 C CNN
 F 2 "lumberjack:MX" H 9600 5250 50  0001 C CNN
-F 3 "" H 9600 5250 50  0001 C CNN
+F 3 "~" H 9600 5250 50  0001 C CNN
 	1    9600 5050
 	-1   0    0    -1  
 $EndComp
@@ -2536,7 +2687,7 @@ P 9600 5750
 F 0 "2u_MX60" H 9600 6035 50  0000 C CNN
 F 1 "SW_Push" H 9600 5944 50  0000 C CNN
 F 2 "lumberjack:MX_PCB_200B" H 9600 5950 50  0001 C CNN
-F 3 "" H 9600 5950 50  0001 C CNN
+F 3 "~" H 9600 5950 50  0001 C CNN
 	1    9600 5750
 	-1   0    0    -1  
 $EndComp
