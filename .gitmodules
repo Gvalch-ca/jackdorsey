@@ -1,0 +1,3 @@
+[submodule "gvalchca-kicad-kbd"]
+	path = gvalchca-kicad-kbd
+	url = https://github.com/Gvalch-ca/gvalchca-kicad-kbd

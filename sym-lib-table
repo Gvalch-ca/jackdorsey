@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/components/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "usb_hybrid")(type "Legacy")(uri "${KIPRJMOD}/components/usb_hybrid.lib")(options "")(descr ""))
+)
