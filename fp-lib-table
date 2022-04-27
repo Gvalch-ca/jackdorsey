@@ -1,8 +1,8 @@
 (fp_lib_table
-  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
   (lib (name "Alps")(type "KiCad")(uri "${KIPRJMOD}/gvalchca-kicad-kbd/Alps.pretty")(options "")(descr ""))
   (lib (name "hitek725")(type "KiCad")(uri "${KIPRJMOD}/gvalchca-kicad-kbd/hitek725.pretty")(options "")(descr ""))
-  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/gvalchca-kicad-kbd/random-keyboard-parts.pretty")(options "")(descr "")(disabled))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/gvalchca-kicad-kbd/random-keyboard-parts.pretty")(options "")(descr ""))
   (lib (name "silks")(type "KiCad")(uri "${KIPRJMOD}/gvalchca-kicad-kbd/silks.pretty")(options "")(descr ""))
   (lib (name "Schematic Library")(type "KiCad")(uri "${KIPRJMOD}/gvalchca-kicad-kbd/random-keyboard-parts.pretty/Schematic Library")(options "")(descr ""))
+  (lib (name "ProMicro")(type "KiCad")(uri "${KIPRJMOD}/gvalchca-kicad-kbd/ProMicro.pretty")(options "")(descr ""))
 )
