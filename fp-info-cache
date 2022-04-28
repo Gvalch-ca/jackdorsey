@@ -1,141 +1,106 @@
-32864893697668
-Schematic Library
-D_SOD-123-Pretty
-SOD-123
-SOD-123
-0
-2
-2
-Schematic Library
-JST-SR-4
-
-
-0
-6
-4
-Schematic Library
-Jumper-UserFriendly
-
-
-0
-2
-2
-Schematic Library
-LED_D3.0mm-Pretty
-LED, diameter 3.0mm, 2 pins
-LED diameter 3.0mm 2 pins
-0
-2
-2
-Schematic Library
-Molex-54819-0519-MFG
-
-
-0
-14
-7
-Schematic Library
-Molex-0548190589
-
-
-0
-8
-5
-Schematic Library
-Molex-0548190589-Assembly
-
-
-0
-9
-5
-Schematic Library
-PJ-3200B-4A
-
-
-0
-4
-4
-Schematic Library
-PushButton_6x6mm_TH
-
-
-0
-4
-4
-Schematic Library
-PushButton_6x6mm_TH_Pretty
-
-
-0
-4
-4
-Schematic Library
-Reset_Pretty
-
-
-0
-6
-6
-Schematic Library
-Reset_Pretty-Mask
-
-
-0
-6
-6
-Schematic Library
-SKQG-1155865
-
-
-0
-4
-4
-Schematic Library
-SKQGADE010
-
-
-0
-4
-4
-Schematic Library
-SOT143B
-
-
-0
-4
-4
-Schematic Library
-breakaway-mousebites
+24652276711017
+silks
+Silkscreen_Spacc
 
 
 0
 0
 0
-Schematic Library
-diode-SOD123-THT
-SOD-123
-SOD-123
-0
-4
-2
-Schematic Library
-poker-screw-normal
+silks
+Silkscreen_X
 
 
 0
 0
 0
-Schematic Library
-poker-screw-wide
+silks
+Silkscreen_ga150logo
 
 
 0
 0
 0
-Schematic Library
-speaker
+silks
+Silkscreen_gvalchca_logo
 
 
 0
-2
-2
+0
+0
+silks
+Silkscreen_keebmeup_small_logo
+
+
+0
+0
+0
+silks
+Silkscreen_proto
+
+
+0
+0
+0
+silks
+Silkscreen_spaccboard
+
+
+0
+0
+0
+silks
+SquidSilk
+
+
+0
+0
+0
+silks
+SquidSilk2
+
+
+0
+0
+0
+silks
+falcon
+
+
+0
+0
+0
+silks
+invader_small
+
+
+0
+0
+0
+silks
+invaders_row1
+
+
+0
+0
+0
+silks
+small-si-1
+
+
+0
+0
+0
+silks
+small-si-2
+
+
+0
+0
+0
+silks
+sobaquea
+
+
+0
+0
+0

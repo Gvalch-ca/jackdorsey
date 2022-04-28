@@ -1,0 +1,1 @@
+Plate files are imported from https://github.com/peej/lumberjack-keyboard. They are not made to work with either Alps or SI. I'll make compatible plates later.
